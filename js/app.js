@@ -21,7 +21,7 @@ const message = document.querySelector("h2");
 
 ///////////////////// EVENT LISTENERS ///////////////////////////////
 window.onload = init;
-document.getElementById("board").onclick = takeTurn;
+document.getElementById("board").onclick = oh;
 document.getElementById("reset-button").onclick = init;
 ///////////////////// FUNCTIONS /////////////////////////////////////
 function init() {
